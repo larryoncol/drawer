@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Drawer App"),
+        title: new Text("Drawer"),
         elevation: defaultTargetPlatform == TargetPlatform.android ? 5.0 :0.0,
       ),
       drawer: new Drawer(
